@@ -1,0 +1,59 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+html{
+    scroll-behavior: smooth;
+}
+body{
+    background: url(/img/wp3906260.jpg);
+    
+}
+
+.navbar{
+    padding: 10px;
+    background:url("/img/wp3906260.jpg");
+    display: flex;
+    flex-direction: row;
+}
+.navbar a{
+    text-decoration: none;
+    color: white;
+    padding: 10px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: large;
+}
+.menus{
+    margin-top: 50px;
+}
+.main{
+    margin-left:200px;
+    margin-right: 200px;
+}
+.desc{
+    padding: 10px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color:white;
+    font-size: 25px;
+    
+}
+.btn{
+   margin-top: 100px; 
+   margin-left: 495px;
+   display: flex;
+   justify-content: center;
+   padding: 20px;
+   border: 2px black solid;
+   border-radius: 10px;
+   background:linear-gradient(darkgreen ,yellow);
+   
+}
+.btn:hover{
+    cursor: pointer;
+    background:linear-gradient(darkgreen ,orange);
+}
+.btn a{
+    color: black;
+}

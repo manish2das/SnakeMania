@@ -1,0 +1,20 @@
+body{
+    background: url("/img/Banner.jpg");
+}
+.head{
+    margin: 10px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: white;
+}
+.main{
+    display: flex;
+    flex-direction: row;
+    margin-left: 271px;
+    margin-top: 20px;
+    padding: 30px;
+}
+.card-img-top{
+    height: 15vm;
+    width: 100%;
+    object-fit: cover;
+}
